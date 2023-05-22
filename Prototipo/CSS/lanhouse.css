@@ -1,0 +1,64 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+}
+/*Cabeçalho*/
+#cabecalho{
+    margin-bottom: 5%;
+}
+.logo{
+    margin: 2% 0;
+}
+#titulo{
+    text-align: center;
+    background: white;
+    font-size: 3em;
+}
+.menu{
+    background: rgb(26, 99, 207);
+    color: white;
+}
+.menu li{
+    margin: 2% 8.5% 2% 2%;
+}
+.menu ul li{
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li input{
+    padding-right: 15%;
+    background: white;
+}
+.menu ul li img{
+    width: 15%;
+    border-radius: 50%;
+    margin-left: 85%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover {
+    background: white;
+    color: black;
+    padding: 0 5%;
+}
+/* corpo*/
+/*tabela*/
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+/*Reserva do console*/
+#reserva{
+    margin: 2% 0;
+}
+.espaco{
+    margin: 2% 0;
+}
