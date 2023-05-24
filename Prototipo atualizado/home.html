@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lan House</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/lanhouse.css" />
+
+    </head>
+    <body>
+        <div id="cabecalho">
+            <div class="logo">
+                <p id="titulo">LAN HOUSE</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="./equipamento.html">EQUIPAMENTOS</a></li>
+                    <li><a href="./jogos.html">JOGOS</a></li>
+                    <li><a href="pagamentos.html">PAGAMENTOS</a></li>
+                    <li><img id="imag" src="./Imagem/WhatsApp Image 2023-05-21 at 03.16.52.jpeg"></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="espaco">
+            <h2>Mapa da Lan House</h2><hr><br>
+            
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>PS2</th>
+                    <th>PS3</th>
+                    <th>PS4</th>
+                    <th>XBOX 360</th>
+                    <th>XBOX ONE</th>
+                    <th>XBOX SERIE S</th>
+                    <th>XBOX SERIE X</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Disponivel </th>
+                    <th>Disponivel</th>
+                    <th>Disponivel</th>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Disponivel </th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Disponivel </th>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <th>Indisponivel</th>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Disponivel </th>
+                    <th>Disponivel </th>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Disponivel </th>
+                    <th>Ocupado </th>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                </tr><tr>
+                    <td>F</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Disponivel </th>
+                    <th>Disponivel</th>
+                    <th>Indisponivel</th>
+                </tr><tr>
+                    <td>G</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Indisponivel </th>
+                    <th>Indisponivel</th>
+                    <th>Disponivel</th>
+                </tr><tr>
+                    <td>H</td>
+                    <th>Indisponivel</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Ocupado </th>
+                    <th>Ocupado </th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                </tr><tr>
+                    <td>I</td>
+                    <th>Indisponivel</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Disponivel </th>
+                    <th>Ocupado </th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <th>Ocupado</th>
+                    <th>Disponivel</th>
+                    <th>Ocupado</th>
+                    <th>Indisponivel </th>
+                    <th>Ocupado </th>
+                    <th>Disponivel</th>
+                    <th>Disponivel</th>
+                </tr>
+            </table>
+        </div><hr><br>
+        <div id="reserva">
+            <h2>Reserva de Consoles</h2><br><hr>
+            <form>
+                Consoles<br>
+                <select name="Consoles" >
+                    <option value="PS2">PS2</option>
+                    <option value="PS3">PS3</option>
+                    <option value="PS4">PS4</option>
+                    <option value="XBOX 360">XBOX 360</option>
+                    <option value="XBOX ONE">XBOX ONE</option>
+                    <option value="XBOX X">XBOX X</option>
+                    <option value="XBOX S">XBOX S</option>
+                </select><br>
+
+                <br>Tempo<br>
+                <input type="radio" name="tempo" value="60"> 60 Minutos<br>
+                <input type="radio" name="tempo" value="120"> 120 Minutos<br>
+                <input type="radio" name="tempo" value="180"> 180 Minutos<br>
+                <input type="radio" name="tempo" value="240"> 240 Minutos<br>
+                <input type="radio" name="tempo" value="300"> 300 Minutos<br>
+                
+                <br><br><input type="submit" value="Reservar">
+            </form>
+        </div>
+        <div class="espaco">
+            <h2>Locais ocupados</h2><hr><br>
+            <table border="1">
+                <tr>
+                    <th>SEÇÃO</th>
+                    <th>Console</th>
+                    <th>Tempo resesvado</th>              
+                    <th>Tempo Restante</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <th>PS2</th>
+                    <th>120 Minutos</th>
+                    <th>35 Minutos</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <th>PS4</th>
+                    <th>180 Minutos</th>
+                    <th>55 Minutos</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <th>XBOX 360</th>
+                    <th>60 Minutos</th>
+                    <th>15 Minutos</th>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <th>PS2</th>
+                    <th>180 Minutos</th>
+                    <th>115 Minutos</th>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <th>PS4</th>
+                    <th>60 Minutos</th>
+                    <th>15 Minutos</th>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <th>XBOX 360</th>
+                    <th>120 Minutos</th>
+                    <th>115 Minutos</th>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <th>XBOX Serie X</th>
+                    <th>120 Minutos</th>
+                    <th>35 Minutos</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <th>PS2</th>
+                    <th>60 Minutos</th>
+                    <th>11 Minutos</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <th>PS4</th>
+                    <th>180 Minutos</th>
+                    <th>110 Minutos</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <th>XBOX 360</th>
+                    <th>120 Minutos</th>
+                    <th>41 Minutos</th>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <th>XBOX Serie S</th>
+                    <th>240 Minutos</th>
+                    <th>160 Minutos</th>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <th>PS3</th>
+                    <th>180 Minutos</th>
+                    <th>110 Minutos</th>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <th>XBOX Serie S</th>
+                    <th>120 Minutos</th>
+                    <th>100 Minutos</th>
+                </tr>            
+                <tr>
+                    <td>E</td>
+                    <th>PS2</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>50 Minutos</th>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <th>XBOX ONE</th>
+                    <th>120 Minutos</th>
+                    <th>50 Minutos</th>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <th>XBOX Serie S</th>
+                    <th>120 Minutos</th>
+                    <th>100 Minutos</th>
+                </tr>
+
+                <tr>
+                    <td>F</td>
+                    <th>PS2</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <th>XBOX 360</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <th>PS2</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <th>XBOX 360</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <th>XBOX 360</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <th>XBOX ONE</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <th>XBOX Serie X</th>
+                    <th>120 Minutos</th>
+                    <th>100 Minutos</th>
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <th>XBOX ONE</th>
+                    <th>120 Minutos</th>
+                    <th>5 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <th>XBOX Serie X</th>
+                    <th>120 Minutos</th>
+                    <th>100 Minutos</th>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <th>PS2</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <th>PS4</th>
+                    <th>120 Minutos</th>
+                    <th>15 Minutos</th>
+               
+                </tr>
+            </table>
+        </div>
+        <div id="reserva">
+            <h2>Reserva de Consoles</h2><br><hr>
+            <form>
+                Seção<br>
+                <select name="Consoles" >
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">G</option>
+                    <option value="H">H</option>
+                    <option value="I">I</option>
+                    <option value="J">J</option>
+                </select><br>
+                <br>Consoles<br>
+                <select name="Consoles">
+                    <option value="PS2">PS2</option>
+                    <option value="PS3">PS3</option>
+                    <option value="PS4">PS4</option>
+                    <option value="XBOX 360">XBOX 360</option>
+                    <option value="XBOX ONE">XBOX ONE</option>
+                    <option value="XBOX X">XBOX X</option>
+                    <option value="XBOX S">XBOX S</option>
+                </select><br>
+                <br>Motivo do Cancelamento<br>
+                <textarea></textarea>
+                
+                <br><br><input type="submit" value="Cancelar">
+            </form>
+        </div>
+    </body>
+</html>
+
