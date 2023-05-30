@@ -60,13 +60,213 @@ textarea{
 }
 form{
     font-size: 1.3em;
-    font-weight: bold;
 }
 /*Reserva do console*/
-#reserva{
-    background: gray;
-    padding: 5% 10%;
+
+h2{
+    color:#0CC31C;
 }
 .espaco{
-    margin: 2% 0;
+    padding-bottom: 10px;
 }
+.mapa{
+    margin-left: 70px;
+    padding: 10px 0;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background: blue;
+}
+.edicao{
+    width: 450px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 40px;
+    text-align: center;
+}
+.edicao2{
+    width: 600px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 35%;
+    text-align: center;
+    list-style: none;
+}
+.edicao3{
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin: 0 15px;
+    text-align: center;
+}
+.ed-geral{
+    display: flex;
+}
+#toggle-1 {
+    display:none;
+ }
+#toggle-2 {
+    display:none;
+ }
+#toggle-3 {
+    display:none;
+ }
+
+ label { 
+   -webkit-appearance: push-button;
+   -moz-appearance: button; 
+   display: inline-block;
+   cursor: pointer;
+ }
+ 
+ /* CSS padrão da div */
+ #mostra {
+    display:none;
+ }
+ #mostrar {
+    display:none;
+ }
+ #amostrar {
+    display:none;
+ }
+ /* CSS quando o checkbox está marcado */
+ #toggle-1:checked ~ #mostra {
+    display:block;
+ }
+ #toggle-2:checked ~ #mostrar {
+    display:block;
+ }
+ #toggle-3:checked ~ #amostrar {
+    display:block;
+ }
+ /*Mapa*/
+ #toggle-10 {
+    display:none;
+ }
+ #mostra1 {
+    display:none;
+ }
+ #toggle-10:checked ~ #mostra1 {
+    display:block;
+ }
+ #toggle-11 {
+    display:none;
+ }
+ #mostra2 {
+    display:none;
+ }
+ #toggle-11:checked ~ #mostra2 {
+    display:block;
+ }
+ #toggle-12 {
+    display:none;
+ }
+ #mostra3 {
+    display:none;
+ }
+ #toggle-12:checked ~ #mostra3 {
+    display:block;
+ }
+ #toggle-13 {
+    display:none;
+ }
+ #mostra4 {
+    display:none;
+ }
+ #toggle-13:checked ~ #mostra4 {
+    display:block;
+ }
+ #toggle-14 {
+    display:none;
+ }
+ #mostra5 {
+    display:none;
+ }
+ #toggle-14:checked ~ #mostra5 {
+    display:block;
+ }
+ #toggle-15 {
+    display:none;
+ }
+ #mostra6 {
+    display:none;
+ }
+ #toggle-15:checked ~ #mostra6 {
+    display:block;
+ }
+ #toggle-16 {
+    display:none;
+ }
+ #mostra7 {
+    display:none;
+ }
+ #toggle-16:checked ~ #mostra7 {
+    display:block;
+ }
+ #toggle-17 {
+    display:none;
+ }
+ #mostra8 {
+    display:none;
+ }
+ #toggle-17:checked ~ #mostra8 {
+    display:block;
+ }
+ #toggle-18 {
+    display:none;
+ }
+ #mostra9 {
+    display:none;
+ }
+ #toggle-18:checked ~ #mostra9 {
+    display:block;
+ }
+ #toggle-19 {
+    display:none;
+ }
+ #mostra10 {
+    display:none;
+ }
+ #toggle-19:checked ~ #mostra10 {
+    display:block;
+ }
+ #toggle-20 {
+    display:none;
+ }
+ #mostra11 {
+    display:none;
+ }
+ #toggle-20:checked ~ #mostra11 {
+    display:block;
+ }
+ #toggle-21 {
+    display:none;
+ }
+ #mostra12 {
+    display:none;
+ }
+ #toggle-21:checked ~ #mostra12 {
+    display:block;
+ }
+ #toggle-23 {
+    display:none;
+ }
+ #mostra14 {
+    display:none;
+ }
+ #toggle-23:checked ~ #mostra14 {
+    display:block;
+ }
+
+#toggle-30 {
+    display:none;
+ }
+ #mostra30 {
+    display:none;
+ }
+ #toggle-30:checked ~ #mostra30 {
+    display:block;
+ }
