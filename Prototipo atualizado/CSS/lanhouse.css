@@ -1,10 +1,8 @@
 *{
-    
     margin: 0px;
     padding: 0px;
-}
-body{
-
+    color:  #1BCE2B;
+    ;
 }
 /*Cabeçalho*/
 #cabecalho{
@@ -19,32 +17,28 @@ body{
     font-size: 3em;
 }
 .menu{
-    background: rgb(26, 99, 207);
-    color: white;
+    text-decoration: none;
+    color: #0CC31C;
 }
 .menu li{
-    margin: 2% 7.4% 2% 2%;
+    margin: 2% 6.5% 2% 2%;
 }
 .menu ul li{
     display: inline-flex;
     list-style: none;
 }
-.menu ul li input{
-    padding-right: 15%;
-    background: white;
-}
 .menu ul li img{
     width: 15%;
     border-radius: 50%;
-    margin-left: 85%;
+    margin-left: 75%;
 }
 .menu ul li a{
-    text-decoration: none;
-    color: white;
+   text-decoration: none;
+    color:  #0CC31C;
 }
 .menu ul li a:hover {
-    background: white;
-    color: black;
+   background: #37CB44;
+    color: white;
     padding: 0 5%;
 }
 /* corpo*/
@@ -61,21 +55,19 @@ textarea{
 form{
     font-size: 1.3em;
 }
-/*Reserva do console*/
 
 h2{
-    color:#0CC31C;
+   color: #1BCE2B;
 }
-.espaco{
-    padding-bottom: 10px;
-}
+
 .mapa{
     margin-left: 70px;
     padding: 10px 0;
     width: 200px;
     height: 70px;
     border-radius: 10px;
-    background: blue;
+    background: rgb(7, 107, 124);
+    color: #FFFFFF;
 }
 .edicao{
     width: 450px;
@@ -83,37 +75,45 @@ h2{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 40px;
-    text-align: center;
+}
+.edicao1{
+   width: 600px;
+   border-radius: 10px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-left: 35%;
+   text-align: center;
 }
 .edicao2{
     width: 600px;
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10% 0;
     margin-left: 35%;
     text-align: center;
-    list-style: none;
 }
 .edicao3{
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 15px;
-    margin: 0 15px;
+    margin: 10px 15px;
     text-align: center;
+}
+.edicao4{
+   width: 750px;
+   border-radius: 10px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+   text-align: center;
 }
 .ed-geral{
     display: flex;
 }
-#toggle-1 {
-    display:none;
- }
-#toggle-2 {
-    display:none;
- }
-#toggle-3 {
-    display:none;
- }
+.mapa label{
+   color: #FFFFFF;
+}
 
  label { 
    -webkit-appearance: push-button;
@@ -121,8 +121,28 @@ h2{
    display: inline-block;
    cursor: pointer;
  }
+.rodape{
+   
+   text-align: center;
+   background: linear-gradient(180deg, #FFFFFF 0%, #93FF9C 44.7%, #37CB44 100%);
+}
+
+h4{
+   padding: 10% 0 2.5% 0;
+   color: #FFFFFF;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
  
- /* CSS padrão da div */
+ /* Ocultar e mostrar */
+ #toggle-1 {
+   display:none;
+}
+#toggle-2 {
+   display:none;
+}
+#toggle-3 {
+   display:none;
+}
  #mostra {
     display:none;
  }
@@ -260,7 +280,6 @@ h2{
  #toggle-23:checked ~ #mostra14 {
     display:block;
  }
-
 #toggle-30 {
     display:none;
  }
