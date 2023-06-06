@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    color: rgba(12, 195, 28, 1);
+    padding: 2% 0;
+  }
+  h3{
+    padding: 2.5% 0 ;
+    color:rgba(12, 195, 28, 1);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  h4{
+    padding: 10% 0 2.5% 0;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  table{
+    width: 100%;
+    text-align: center;
+  }
+#cabecalho{
+    margin-bottom: 5%;
+  }
+  .logo{
+    margin: 2% 0;
+  }
+  #titulo{
+    text-align: center;
+    background: white;
+    font-size: 3em;
+  }
+  .menu{
+    text-decoration: none;
+    color: #0CC31C;
+  }
+  .menu li{
+    margin: 2% 6.5% 2% 2%;
+  }
+  .menu ul li{
+    display: inline-flex;
+    list-style: none;
+  }
+  .menu ul li img{
+    width: 15%;
+    border-radius: 50%;
+    margin-left: 75%;
+  }
+  .menu ul li a{
+   text-decoration: none;
+    color:  #3FFF50;
+    ;
+  }
+  .menu ul li a:hover {
+   background: #37CB44;
+    color: white;
+    padding: 0 5%;
+  }
+  .relatorio{
+    list-style: none;
+    display:inline-flex;
+    padding: 2% 0 ;
+  }
+  .dia{
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 100px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+  }
+  .espaco{
+    padding: 12% 0;
+  }
+  .rodape{  
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #93FF9C 44.7%, #37CB44 100%);
+  }

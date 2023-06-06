@@ -1,0 +1,127 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  color: rgba(12, 195, 28, 1);
+}
+h4{
+  padding: 10% 0 2.5% 0;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+select{
+  border: 0px;
+  color:rgba(12, 195, 28, 1);
+  font-size: medium;
+  font-weight: bold;
+}
+input[type="number"]{
+  width: 30px;
+  border: none;
+  color:rgba(12, 195, 28, 1);
+  font-size: medium;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+form{
+  text-align: center;
+}
+/*Cabeçalho*/
+#cabecalho{
+  margin-bottom: 5%;
+}
+.logo{
+  margin: 2% 0;
+}
+#titulo{
+  text-align: center;
+  background: white;
+  font-size: 3em;
+}
+.menu{
+  text-decoration: none;
+  color: #0CC31C;
+}
+.menu li{
+  margin: 2% 6.5% 2% 2%;
+}
+.menu ul li{
+  display: inline-flex;
+  list-style: none;
+}
+.menu ul li img{
+  width: 15%;
+  border-radius: 50%;
+  margin-left: 75%;
+}
+.menu ul li a{
+ text-decoration: none;
+  color:  #3FFF50;
+  ;
+}
+.menu ul li a:hover {
+ background: #37CB44;
+  color: white;
+  padding: 0 5%;
+}
+/*Corpo*/
+.mapa{
+  margin: 2%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.mapa ul li{
+  display: inline-flex;
+  list-style: none;
+}
+.mapa p{
+  color: #bdae29;
+  text-align: center;
+  margin-top: auto;
+  font-size: 0.85em;
+}
+/*Condição*/
+.disponivel{
+  margin-left: 70px;
+  padding: 10px 0;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background: rgb(249, 249, 250);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.indisponivel{
+  margin-left: 70px;
+  padding: 10px 0;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background: rgb(241, 30, 30);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*Edição*/
+.info{
+  padding-top: 2%;
+}
+.dinfo{
+  
+  margin-left: 35%;
+}
+.einfo{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.fim{
+  border-bottom: 1px solid gray;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),  0px 4px 4px rgba(0, 0, 0, 0.25),  0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.rodape{  
+  text-align: center;
+  background: linear-gradient(180deg, #FFFFFF 0%, #93FF9C 44.7%, #37CB44 100%);
+}
